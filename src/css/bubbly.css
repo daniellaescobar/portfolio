@@ -1,0 +1,798 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+img,
+video {
+  width: 100%;
+  height: auto;
+}
+/* Navbar Bubbly (White) */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 8vh;
+  background-color: #809eff;
+  font-family: "DM Sans", sans-serif;
+  width: 100%;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.white {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 8vh;
+  background-color: white;
+  font-family: "DM Sans", sans-serif;
+  width: 100%;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.nav-links-white {
+  display: flex;
+  justify-content: space-around;
+  width: 20rem;
+}
+
+.nav-links-white li {
+  list-style: none;
+}
+
+.nav-links-white a {
+  color: #809eff;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-size: 1.2rem;
+  margin-left: 3rem;
+  position: relative;
+}
+
+.nav-links-white a:after {
+  content: "";
+  position: absolute;
+  background-color: #809eff;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -7px;
+  transition: 0.3s;
+}
+
+.nav-links-white a:hover:after {
+  width: 100%;
+}
+
+.nav-links-white a:hover {
+  color: #809eff;
+  transition: 0s;
+}
+
+.logo {
+  width: 6rem;
+  justify-content: center;
+  margin-right: 15rem;
+}
+
+.contact-icons {
+  width: 4rem;
+  display: flex;
+  margin-right: 3rem;
+}
+
+.email-icon {
+  margin-right: 10px;
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+  margin-left: 3rem;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px;
+}
+
+/* Universal Desktop */
+.content {
+  margin: 0 20% 0 20%;
+}
+
+/* Start main content - Bubbly */
+.title-bg-bubbly {
+  background-color: #d38cd3;
+  width: 100%;
+  height: 50%;
+}
+
+.items-container img {
+  width: 19rem;
+  margin: 2rem;
+}
+
+.items-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-bg-bubbly .title-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.whole-title h1 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 3rem;
+  color: white;
+  font-weight: 500;
+}
+
+.whole-title h2 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 200;
+}
+
+.title-bg-bubbly .title-button button {
+  border: none;
+  background: white;
+  color: #d38cd3;
+  padding: 22px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  height: 10px;
+  border-radius: 7px;
+  margin-left: 1.5rem;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.title-bg-bubbly .title-button button:hover {
+  background: #f2f2f2;
+  transition: 0.3 ease;
+}
+
+.title-bg-bubbly .title-button a {
+  text-decoration: none;
+}
+
+.title-bg-bubbly .title-button a:visited {
+  text-decoration: none;
+}
+
+.description {
+  width: 100%;
+  margin-top: 3px;
+  display: flex;
+  justify-content: space-around;
+  background: #d38cd3;
+  padding: 1rem;
+}
+
+.description p {
+  font-size: 0.7rem;
+  color: white;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 200;
+}
+
+/* Start content */
+
+.meaning,
+.intro,
+.research,
+.listening,
+.analysis,
+.personas,
+.ia,
+.client,
+.high,
+.forward,
+.wireframes,
+.redesigned,
+.success,
+.questions {
+  margin-top: 1.8rem;
+}
+
+.meaning h4,
+.intro h4,
+.research h4,
+.listening h4,
+.ia h4,
+.sketches h4,
+.client h4,
+.forward h4,
+.wireframes h4,
+.redesigned h4,
+.success h4 {
+  font-family: "DM Sans", sans-serif;
+  color: #d38cd3;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.personas h4,
+.analysis h4,
+.high h4,
+.questions h4 {
+  font-family: "DM Sans", sans-serif;
+  color: #d38cd3;
+  font-size: 1.5rem;
+}
+
+.intro p,
+.research p,
+.analysis p,
+.ia p,
+.meaning p,
+.personas p,
+.sketches p,
+.testing p,
+.forward p,
+.high p,
+.listening p,
+.wireframes p,
+.responsive p,
+.questions p,
+.high-one ul li,
+.forward ul li,
+.redesigned p,
+.success p {
+  font-family: "DM Sans", sans-serif;
+  color: #d38cd3;
+  font-size: 1rem;
+}
+
+.analysis .title-button,
+.personas .title-button,
+.high .title-button,
+.title-button {
+  display: flex;
+  align-items: row;
+  justify-content: space-between;
+}
+
+.analysis .title-button button,
+.personas .title-button button,
+.high .title-button button,
+.title-button button {
+  background-image: linear-gradient(-45deg, #b927b9 20% 50%, #d38cd3 50% 100%);
+  background-size: 175%;
+  background-position: 0%;
+  transition: background-position 0.3s ease;
+  overflow: hidden;
+
+  border: none;
+  color: white;
+  padding: 20px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 7px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 900;
+  max-height: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.analysis .title-button button:hover,
+.personas .title-button button:hover,
+.high .title-button button:hover {
+  background-position: 100%;
+}
+
+.analysis .title-button a,
+.personas .title-button a,
+.high .title-button a {
+  text-decoration: none;
+}
+
+.analysis .title-button a:visited,
+.personas .title-button a:visited,
+.high .title-button a:visited {
+  text-decoration: none;
+}
+
+.analysis .title-button a:hover,
+.personas .title-button a:hover,
+.high .title-button a:hover {
+  text-decoration: none;
+}
+
+.analysis p {
+  margin-bottom: 1rem;
+}
+
+.personas .personas-img,
+.wireframes img {
+  margin-top: 1rem;
+}
+
+.high p {
+  margin: 1rem 0 1rem 0;
+}
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.challenge {
+  background: white;
+  box-shadow: 0px 4px 7px #00000029;
+  padding: 2.5rem 3rem;
+  border-radius: 7px;
+  width: 24rem;
+  margin-right: 3rem;
+}
+
+.solution {
+  background: white;
+  box-shadow: 0px 4px 7px #00000029;
+  padding: 2.5rem 3rem;
+  border-radius: 7px;
+  width: 24rem;
+}
+
+.research iframe,
+.high iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin-bottom: 1rem;
+}
+
+.pp-one {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 3rem;
+}
+.pp-one img {
+  width: 35%;
+}
+
+.pp-two {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 3rem;
+}
+
+.pp-two img {
+  width: 35%;
+}
+
+.pp-two p,
+.pp-four p {
+  margin-right: 1rem;
+}
+
+.pp-three {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 3rem;
+}
+
+.pp-three img {
+  width: 35%;
+}
+
+.pp-four {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 3rem;
+}
+
+.pp-four img {
+  width: 35%;
+}
+
+.words-arrow {
+  margin-left: 2.5rem;
+}
+
+.words-arrow img {
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5% 40% 5% 40%;
+}
+
+.words-arrow p {
+  font-family: "DM Sans", sans-serif;
+  color: #d38cd3;
+  font-size: 1rem;
+}
+
+.analysis .title-button,
+.personas .title-button {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.replace {
+  background: #6ea8cf;
+  width: 100%;
+  height: 15rem;
+}
+
+.personas-img {
+  display: flex;
+  flex-direction: row;
+}
+
+.personas-img img {
+  width: 48%;
+  box-shadow: 0px 4px 7px #00000029;
+}
+
+.first-persona-img {
+  margin-right: 2.5rem;
+}
+
+.ia img {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}
+
+.ia-imgs {
+  display: flex;
+  flex-direction: row;
+  margin: 0 10% 0 10%;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.ia-small {
+  height: 70%;
+}
+
+.bold-ital {
+  font-weight: 600;
+  font-style: italic;
+  padding-left: 0.5rem;
+}
+
+.quote-one img {
+  width: 2rem;
+}
+
+.quote-one {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem 0 1rem 0;
+}
+
+.quote-two img {
+  width: 2rem;
+}
+
+.quote-two {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem 0 1rem 0;
+}
+
+.redesigned img {
+  width: 80%;
+  margin: 0 10% 0 10%;
+}
+
+.redesigned-one {
+  margin: 1rem 0 1rem 0;
+  font-weight: bold;
+}
+
+.redesigned-two {
+  font-weight: bold;
+}
+
+.insights-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.insights-container img {
+  width: 6rem;
+  padding: 0.5rem 0;
+  display: flex;
+}
+
+.insights-one,
+.insights-two,
+.insights-three,
+.insights-four {
+  display: flex;
+  flex-direction: column;
+  width: 8rem;
+  align-items: center;
+}
+
+.insights-container p {
+  font-family: "DM Sans", sans-serif;
+  color: #d38cd3;
+  font-size: 0.9rem;
+}
+
+.footer {
+  background-color: #809eff;
+  width: 100%;
+  height: 4.5rem;
+  margin: 1.8rem 0 0 0;
+}
+
+.footer p {
+  color: white;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1rem;
+  padding-top: 1.7rem;
+  padding-left: 1.5rem;
+}
+
+.forward ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* Navbar becomes hamburger*/
+@media screen and (max-width: 930px) {
+  .intro {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .challenge {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  body {
+    overflow-x: hidden;
+    position: relative;
+  }
+
+  .nav-links {
+    position: absolute;
+    left: 0px;
+    height: 92vh;
+    top: 8vh;
+    background-color: #809eff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    transform: translateX(-100%);
+    transition: transform 0.5s ease-in;
+  }
+
+  .nav-links li {
+    opacity: 0;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .nav-active {
+    transform: translateX(0%);
+  }
+
+  /* Homepage Heading Desktop*/
+  .homepage-heading {
+    flex-direction: column;
+  }
+
+  .homepage-heading h1 {
+    font-size: 2.7rem;
+  }
+
+  .homepage-heading .line {
+    display: none;
+  }
+
+  .homepage-heading h2 {
+    font-size: 1.2rem;
+  }
+
+  .content {
+    margin: 0 5% 0 5%;
+  }
+}
+
+/* True Mobile View*/
+@media screen and (max-width: 668px) {
+  .content {
+    margin: 0 5% 0 5%;
+  }
+
+  .pp-one,
+  .pp-three {
+    flex-direction: column;
+  }
+
+  .pp-two,
+  .pp-four {
+    flex-direction: column-reverse;
+  }
+
+  .listening .person-img {
+    margin: 0 33% 0 33%;
+  }
+
+  .intro {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .challenge {
+    margin: 1rem 0 1rem 0;
+  }
+
+  .personas-img {
+    display: flex;
+    flex-direction: column;
+    margin: 0 15% 0 15%;
+  }
+
+  .personas img {
+    width: 100%;
+  }
+
+  .first-persona-img {
+    margin-bottom: 1rem;
+  }
+
+  .ia img {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin: 0 15% 0 15%;
+  }
+
+  .title-bg-bubbly .title-button {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .title-bg-bubbly .title-button button {
+    margin-left: 0;
+  }
+
+  .title-bg-bubbly .whole-title {
+    margin-right: 4rem;
+  }
+
+  .title-bg-bubbly h2 {
+    margin-top: 0.5rem;
+  }
+
+  .description {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .description p {
+    padding: 0.2rem;
+    font-size: 0.9rem;
+  }
+
+  .iteration-one,
+  .iteration-three {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .iteration-one p,
+  .iteration-three p {
+    margin-left: 0rem;
+    padding-right: 0rem;
+  }
+
+  .iteration-two {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 2rem 0 2rem 0;
+  }
+
+  .iteration-two p {
+    margin-right: 1rem;
+    text-align: left;
+    padding-left: 0rem;
+  }
+
+  .iterations p {
+    margin-top: 0.5rem;
+  }
+
+  .iterations img {
+    width: 35%;
+    margin: 0 33% 0 33%;
+  }
+
+  .analysis .title-button,
+  .personas .title-button,
+  .high .title-button {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .analysis .title-button button,
+  .personas .title-button button,
+  .high .title-button button {
+    margin: 0.5rem 0 0.5rem 0;
+  }
+
+  .high .title-button {
+    align-items: center;
+    text-align: center;
+  }
+
+  .items-container img {
+    width: 9rem;
+    margin-left: 4rem;
+  }
+
+  .whole-title h1 {
+    font-size: 2.5rem;
+  }
+
+  .whole-title h2 {
+    font-size: 1rem;
+  }
+
+  .title-bg-bubbly .title-button button {
+    font-size: 0.7rem;
+  }
+
+  .ia-imgs {
+    flex-direction: column;
+    flex-direction: column-reverse;
+    margin: 0 10% 0 10%;
+  }
+
+  .insights-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .insights-one,
+  .insights-two,
+  .insights-three,
+  .insights-four {
+    margin: 0 1rem 0 1rem;
+  }
+
+  .insights-one,
+  .insights-two {
+    margin-bottom: 1rem;
+  }
+
+  .items-container img {
+    width: 15rem;
+    margin: 2rem;
+  }
+}
