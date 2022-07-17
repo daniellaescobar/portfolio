@@ -19,6 +19,8 @@ nav {
   font-family: "DM Sans", sans-serif;
   width: 100%;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
 }
 
 .white {
@@ -182,11 +184,14 @@ nav {
 
 .centible-mockup {
   margin: 0 2% 0 2%;
-  border-radius: 10;
 }
 
 .centible-mockup img {
-  border-radius: 7px;
+  border-radius: 10px;
+}
+
+.centible-mockup img:hover {
+  background-color: black;
 }
 
 .footer {
@@ -235,6 +240,7 @@ nav {
 
   .nav-active {
     transform: translateX(0%);
+    display: flex;
   }
 
   /* Homepage Heading Desktop*/
@@ -258,7 +264,7 @@ nav {
     margin: 0 5% 0 5%;
   }
 
-  /* Homepage Cards*/
+  /* Responsive Navbar*/
 
   @keyframes navLinkFade {
     from {
