@@ -2,11 +2,13 @@
 .homepage nav,
 .about nav {
   background-color: #809eff;
+  z-index: 1;
 }
 
 .homepage .burger div,
 .about .burger div {
   background-color: white;
+  z-index: 1;
 }
 
 .homepage .left a:hover,
