@@ -1,1 +1,0 @@
-# Daniella's design portfolio
