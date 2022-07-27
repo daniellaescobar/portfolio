@@ -67,7 +67,7 @@ figure figcaption {
   position: absolute;
   inset: 0;
   width: 100%;
-  background: rgba(161, 177, 230, 0.7);
+  background: rgba(161, 177, 230, 0.8);
   font-family: "DM Sans", sans-serif;
   font-weight: 200;
   color: white;
@@ -218,7 +218,7 @@ order: Centible --> Inquery --> Bubbly*/
 .whole-title .title-button button {
   border: none;
   background: white;
-  padding: 22px 28px;
+  padding: 30px 28px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
