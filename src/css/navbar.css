@@ -1,7 +1,7 @@
 /* Homepage + about navbar white styles */
 .homepage nav,
 .about nav {
-  background-color: #809eff;
+  background-color: #668aff;
   z-index: 1;
 }
 
@@ -37,6 +37,7 @@
   font-size: 1.2rem;
   margin-left: 1.5rem;
   position: relative;
+  font-weight: 500;
 }
 
 .homepage .left a:after,
@@ -53,7 +54,7 @@
 
 .homepage .nav-links,
 .about .nav-links {
-  background: #809eff;
+  background: #668aff;
 }
 
 /*purple navbar*/
@@ -76,7 +77,7 @@ nav {
 .burger div {
   width: 25px;
   height: 3px;
-  background-color: #809eff;
+  background-color: #668aff;
   margin: 5px;
   transition: all 0.5s ease;
 }
@@ -91,18 +92,19 @@ nav {
 }
 
 .left a {
-  color: #809eff;
+  color: #668aff;
   text-decoration: none;
   letter-spacing: 3px;
   font-size: 1.2rem;
   margin-left: 1.5rem;
   position: relative;
+  font-weight: 500;
 }
 
 .left a:after {
   content: "";
   position: absolute;
-  background-color: #809eff;
+  background-color: #668aff;
   height: 3px;
   width: 0;
   left: 0;
@@ -115,7 +117,7 @@ nav {
 }
 
 .left a:hover {
-  color: #809eff;
+  color: #668aff;
   transition: 0s;
 }
 
@@ -175,7 +177,7 @@ img {
   }
 
   .email-icon {
-    margin-right: 0.5rem;
+    padding-top: 0.4rem;
   }
 }
 
@@ -187,6 +189,7 @@ img {
 
   .email-icon {
     margin-right: 0.5rem;
+    padding-top: 0.4rem;
   }
 
   body {

@@ -21,7 +21,7 @@
   font-family: "Montserrat Alternates", sans-serif;
   font-size: 3rem;
   padding-right: 1rem;
-  color: #809eff;
+  color: #668aff;
   margin-top: 3rem;
 }
 
@@ -29,7 +29,7 @@
   font-family: "DM Sans", sans-serif;
   font-weight: 100;
   font-size: 1.6rem;
-  color: #809eff;
+  color: #668aff;
 }
 
 .homepage * {
@@ -47,6 +47,7 @@
 
 .homepage .row-one img {
   width: 100%;
+  height: 100%;
   display: block;
   border-radius: 10px;
 }
@@ -67,6 +68,7 @@ figure figcaption {
   position: absolute;
   inset: 0;
   width: 100%;
+  height: 100%;
   background: rgba(161, 177, 230, 0.8);
   font-family: "DM Sans", sans-serif;
   font-weight: 200;
@@ -99,7 +101,7 @@ figure figcaption:active {
   justify-content: center;
   font-family: "DM Sans", sans-serif;
   font-size: 3rem;
-  color: #809eff;
+  color: #668aff;
   margin-top: 2rem;
 }
 
@@ -112,6 +114,7 @@ figure figcaption:active {
 
 .about .container img {
   width: 17rem;
+  height: 15rem;
   border-radius: 10px;
   margin: 1rem 0 1rem 0;
 }
@@ -119,8 +122,9 @@ figure figcaption:active {
 .about p {
   font-family: "DM Sans", sans-serif;
   font-size: 1rem;
-  color: #809eff;
+  color: #668aff;
   margin-bottom: 6rem;
+  font-weight: 500;
 }
 
 .about a {
@@ -135,18 +139,19 @@ order: Centible --> Inquery --> Bubbly*/
 
 /* --- Colored Background ---*/
 .title-bg-centible {
-  background-color: #6ea8cf;
+  background-color: #387ba8;
   width: 100%;
 }
 
 .title-bg-inquery {
-  background-color: #a98fcc;
+  background-color: #8865b8;
   height: 50%;
   width: 100%;
+  height: 100%;
 }
 
 .title-bg-bubbly {
-  background-color: #d38cd3;
+  background-color: #ba45ba;
   width: 100%;
   height: 50%;
 }
@@ -156,6 +161,7 @@ order: Centible --> Inquery --> Bubbly*/
 /*Centible*/
 .items-container-centible img {
   width: 13rem;
+  height: 20rem;
   margin: 2rem;
 }
 
@@ -168,6 +174,7 @@ order: Centible --> Inquery --> Bubbly*/
 /*Inquery*/
 .items-container-inquery img {
   width: 22rem;
+  height: 15rem;
   margin: 2rem;
 }
 
@@ -181,6 +188,7 @@ order: Centible --> Inquery --> Bubbly*/
 /*Bubbly*/
 .items-container-bubbly img {
   width: 19rem;
+  height: 18rem;
   margin: 2rem;
 }
 
@@ -223,6 +231,7 @@ order: Centible --> Inquery --> Bubbly*/
   text-decoration: none;
   display: inline-block;
   height: 10px;
+  width: max-content;
   border-radius: 7px;
   margin-left: 1.5rem;
   font-family: "DM Sans", sans-serif;
@@ -234,15 +243,15 @@ order: Centible --> Inquery --> Bubbly*/
 }
 
 .title-bg-centible .title-button button {
-  color: #6ea8cf;
+  color: #387ba8;
 }
 
 .title-bg-inquery .title-button button {
-  color: #a98fcc;
+  color: #8865b8;
 }
 
 .title-bg-bubbly .title-button button {
-  color: #d38cd3;
+  color: #ba45ba;
 }
 
 .whole-title .title-button button:hover {
@@ -260,6 +269,7 @@ order: Centible --> Inquery --> Bubbly*/
 /* --- Description ---*/
 .description {
   width: 100%;
+  height: 100%;
   margin-top: 3px;
   display: flex;
   justify-content: space-around;
@@ -274,14 +284,14 @@ order: Centible --> Inquery --> Bubbly*/
 }
 
 .centible .description {
-  background: #6ea8cf;
+  background: #387ba8;
 }
 
 .inquery .description {
-  background: #a98fcc;
+  background: #8865b8;
 }
 .bubbly .description {
-  background: #d38cd3;
+  background: #ba45ba;
 }
 
 /* Universal fonts & colors */
@@ -318,28 +328,30 @@ h4 {
 .centible h4,
 .centible .content-projects p,
 .centible .forward ul li {
-  color: #6ea8cf;
+  color: #387ba8;
 }
 
 .inquery h4,
 .inquery .content-projects p {
-  color: #a98fcc;
+  color: #8865b8;
 }
 
 .bubbly h4,
 .bubbly .content-projects p,
 .bubbly .forward ul li {
-  color: #d38cd3;
+  color: #ba45ba;
 }
 
 .content-projects p,
 .forward ul li {
   font-family: "DM Sans", sans-serif;
   font-size: 1rem;
+  font-weight: 500;
 }
 
 iframe {
   width: 100%;
+  height: 100%;
   aspect-ratio: 16 / 9;
 }
 
@@ -373,15 +385,15 @@ iframe {
 }
 
 .centible .content-projects .title-button button {
-  background-image: linear-gradient(-45deg, #1e567e 20% 50%, #6ea8cf 50% 100%);
+  background-image: linear-gradient(-45deg, #6ea8cf 20% 50%, #1e567e 50% 100%);
 }
 
 .inquery .content-projects .title-button button {
-  background-image: linear-gradient(-45deg, #633a9a 20% 50%, #a98fcc 50% 100%);
+  background-image: linear-gradient(-45deg, #a98fcc 20% 50%, #633a9a 50% 100%);
 }
 
 .bubbly .content-projects .title-button button {
-  background-image: linear-gradient(-45deg, #b927b9 20% 50%, #d38cd3 50% 100%);
+  background-image: linear-gradient(-45deg, #d38cd3 20% 50%, #b927b9 50% 100%);
 }
 
 .content-projects .title-button button:hover {
@@ -434,6 +446,7 @@ iframe {
 
 .pp-one img {
   width: 35%;
+  height: 35%;
 }
 
 .pp-two {
@@ -444,6 +457,7 @@ iframe {
 
 .pp-two img {
   width: 35%;
+  height: 35%;
 }
 
 .pp-two p,
@@ -459,6 +473,7 @@ iframe {
 
 .pp-three img {
   width: 35%;
+  height: 35%;
 }
 
 .pp-four {
@@ -469,6 +484,7 @@ iframe {
 
 .pp-four img {
   width: 35%;
+  height: 35%;
 }
 
 .words-arrow {
@@ -477,6 +493,7 @@ iframe {
 
 .words-arrow img {
   width: 3rem;
+  height: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -488,7 +505,7 @@ iframe {
   font-family: "DM Sans", sans-serif;
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
-  color: #a98fcc;
+  color: #8865b8;
 }
 
 .inquery .right-justified {
@@ -504,6 +521,7 @@ iframe {
 
 .personas-img img {
   width: 48%;
+  height: 48%;
   box-shadow: 0px 4px 7px #00000029;
 }
 
@@ -525,6 +543,7 @@ iframe {
 .personas-row-one img,
 .personas-row-two img {
   width: 48%;
+  width: 48%;
   box-shadow: 0px 4px 7px #00000029;
 }
 
@@ -535,6 +554,7 @@ iframe {
 /*Information Architecture*/
 .centible .ia img {
   width: 50%;
+  height: 50%;
   display: flex;
   justify-content: center;
   margin: 0 25% 0 25%;
@@ -548,6 +568,7 @@ iframe {
 
 .bubbly .ia img {
   width: 70%;
+  height: 70%;
   display: flex;
   justify-content: center;
 }
@@ -564,10 +585,16 @@ iframe {
   height: 70%;
 }
 
+/* --- Wireframes (Inquery) --- */
+.inquery .wireframes h3 {
+  margin-top: 0.5rem;
+}
+
 /* --- Iterations for Centible --- */
 
 .iterations img {
   width: 30%;
+  height: 30%;
 }
 
 .iteration-one,
@@ -608,9 +635,18 @@ iframe {
   margin-bottom: 0.5rem;
 }
 
+.centible .high p {
+  margin-top: 0.5rem;
+}
+
+.inquery .high p {
+  margin-bottom: 0.5rem;
+}
+
 /* --- style for inquery --- */
 .style-guide img {
   width: 80%;
+  height: 80%;
   margin: 1rem 10% 1rem 10%;
 }
 
@@ -618,6 +654,7 @@ iframe {
 .redesigned-one img,
 .redesigned-two img {
   width: 80%;
+  height: 80%;
   margin: 0 10% 0 10%;
 }
 
@@ -640,6 +677,7 @@ iframe {
 
 .quote-one img {
   width: 2rem;
+  height: 2rem;
 }
 
 .quote-one {
@@ -649,6 +687,7 @@ iframe {
 }
 
 .quote-two img {
+  width: 2rem;
   width: 2rem;
 }
 
@@ -662,6 +701,7 @@ iframe {
 
 .bubbly .redesigned img {
   width: 80%;
+  height: 80%;
   margin: 0 10% 0 10%;
 }
 
@@ -684,6 +724,7 @@ iframe {
 
 .insights-container img {
   width: 6rem;
+  height: 6rem;
   padding: 0.5rem 0;
   display: flex;
 }
@@ -716,7 +757,7 @@ iframe {
 
 /* Footer */
 .footer {
-  background-color: #809eff;
+  background-color: #668aff;
   width: 100%;
   height: 4.5rem;
   margin: 1.8rem 0 0 0;
@@ -736,6 +777,7 @@ iframe {
   align-items: center;
   justify-content: center;
   margin: 1.5rem 0 1.5rem 0;
+  font-weight: 500;
 }
 
 /* Navbar becomes hamburger*/
@@ -751,7 +793,7 @@ iframe {
     left: 0px;
     height: 92vh;
     top: 8vh;
-    background-color: #809eff;
+    background-color: #668aff;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -835,6 +877,7 @@ iframe {
   .description p {
     padding: 0.2rem;
     font-size: 0.9rem;
+    font-weight: 400;
   }
 
   /* --- challenge + solution --- */
