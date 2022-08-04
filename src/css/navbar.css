@@ -3,6 +3,7 @@
 .about nav {
   background-color: #668aff;
   z-index: 1;
+  padding: 0 2.5rem 0 2.5rem;
 }
 
 .homepage .burger div,
@@ -35,8 +36,8 @@
   text-decoration: none;
   letter-spacing: 3px;
   font-size: 1.2rem;
-  margin-left: 1.5rem;
   position: relative;
+  margin: 6px;
   font-weight: 500;
 }
 
@@ -66,12 +67,12 @@ nav {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   position: sticky;
   top: 0;
+  padding: 0 2.5rem 0 2.5rem;
 }
 
 .burger {
   display: none;
   cursor: pointer;
-  margin-left: 3rem;
 }
 
 .burger div {
@@ -96,9 +97,9 @@ nav {
   text-decoration: none;
   letter-spacing: 3px;
   font-size: 1.2rem;
-  margin-left: 1.5rem;
   position: relative;
   font-weight: 500;
+  margin: 6px;
 }
 
 .left a:after {
@@ -137,7 +138,6 @@ img {
 .right {
   display: flex;
   align-items: center;
-  margin-right: 2rem;
 }
 .right img {
   width: 1.8rem;
