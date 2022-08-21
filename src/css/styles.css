@@ -7,6 +7,11 @@
   display: flex;
 }
 
+.work-content {
+  margin: 2rem 20% 0 20%;
+  color: #668aff;
+}
+
 /* ------ Homepage styles ------ */
 
 .homepage .homepage-heading {
@@ -132,6 +137,117 @@ figure figcaption:active {
 }
 .about a:visited {
   color: #6679b8;
+}
+
+/* ------ Work page styles ------ */
+
+.title-bg-work {
+  background-color: #668aff;
+  width: 100%;
+  height: 50%;
+}
+
+.work .whole-title-work h1 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 2.5rem;
+  color: white;
+  font-weight: 500;
+}
+
+.work .whole-title-work {
+  display: flex;
+  flex-direction: row;
+  padding: 5.5rem;
+  justify-content: space-around;
+}
+
+.work .title-button-work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.work .whole-title-work .title-button-work button {
+  border: none;
+  background: white;
+  padding: 30px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  height: 10px;
+  width: max-content;
+  border-radius: 7px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #668aff;
+  margin-top: 0.5rem;
+}
+
+.work .whole-title-work .title-button-work button:hover {
+  background: #f2f2f2;
+  transition: 0.3 ease;
+}
+
+.work .whole-title-work .title-button-work a {
+  text-decoration: none;
+}
+
+.work.whole-title-work .title-button-work a:visited {
+  text-decoration: none;
+}
+
+.lumen,
+.app-team {
+  box-shadow: 0 0 0.25rem 0 rgba(0, 0, 0, 0.16);
+  background: white;
+  padding: 2rem 3rem 2rem 3rem;
+  border-radius: 10px;
+}
+
+.lumen {
+  margin-bottom: 1.5rem;
+}
+
+.lumen img {
+  width: 10rem;
+  height: 3rem;
+}
+
+.app-team img {
+  width: 2.3rem;
+  height: 2.3rem;
+  margin-right: 0.5rem;
+}
+
+.time-location {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-words {
+  display: flex;
+}
+
+.app-team h4 {
+  margin-top: 0.1rem;
+}
+
+.work h5 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.2rem;
+  margin: 1rem 0 0 0;
+}
+
+.work p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 300;
+  font-style: italic;
 }
 
 /* ------- Hero Content Project Pages -------
@@ -343,6 +459,7 @@ h4 {
 }
 
 .content-projects p,
+.work ul,
 .forward ul li {
   font-family: "DM Sans", sans-serif;
   font-size: 1rem;
@@ -849,6 +966,23 @@ iframe {
   .about .container {
     margin: 0 5% 0 5%;
   }
+
+  /* --- work --- */
+  .work-content {
+    margin: 0 5% 0 5%;
+  }
+
+  .work .whole-title-work {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+  }
+
+  .work .professional {
+    margin-bottom: 2rem;
+  }
+
+  .work .whole
 
   /* --- Hero content --- */
   .items-container-centible,
