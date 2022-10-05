@@ -14,12 +14,24 @@
 
 /* ------ Homepage styles ------ */
 
+.homepage h3 {
+  margin: 0 7% 1% 7%;
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #668aff;
+}
+
+.homepage .ux {
+  padding-bottom: 2rem;
+}
+
 .homepage .homepage-heading {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 2rem 1rem 2rem 1rem;
+  margin: 1.5rem 1rem 1.5rem 1rem;
 }
 
 .homepage-heading h1 {
@@ -55,6 +67,10 @@
   height: 100%;
   display: block;
   border-radius: 10px;
+}
+
+.homepage .row-two {
+  margin-bottom: 7rem;
 }
 
 figure {
