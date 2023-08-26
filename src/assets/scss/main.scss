@@ -1,0 +1,38 @@
+.index .card {
+transition: all 0.3s;
+}
+
+.index .card:hover {
+transform: scale(1.05);
+}
+
+
+html footer i:hover {
+    transform: scale(1.15);
+    }
+
+$primary: #63ABFF;
+/*$secondary: #32C192;*/
+
+/*.circle{
+    height: 100vh;
+    background: $primary;
+    border-radius: 0 50% 50% 0;
+}*/
+
+.bg-centible {
+    background-color: #B98FB5;
+}
+
+.bg-bubbly {
+    background-color: #ACC39A;
+}
+
+.bg-inquery {
+    background-color: #ACA7F7;
+}
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+/* for icons, it's also in HTML head so this may not be necesarry */
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+/* Youtube video where I learned how to do this: https://www.youtube.com/watch?v=cFjWCTk6lXc&t=157s */

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daniella Escobar</title>
+  <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico" />
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+</head>
+
+<body class="index">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid mx-4">
+      <a class="navbar-brand" href="index.html"><img src="/assets/img/logo-svg.svg" alt="logo" ></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!--This div makes the links + linked/mail collapse into a hamburger-->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <!--Navigation links start-->
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/assets/escobar_daniella.pdf" target="_blank">Resume</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        </ul>
+        <!--Navigation links end-->
+
+        <!--Linkedin + mail start-->
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex justify-content-center align-items-center">
+          <li class="nav-item">
+            <a class="icon-link nav-link" href="mailto:daniesco0303@gmail.com">
+              <i class="bi bi-envelope-fill" style="font-size: 1.8rem; color: white;"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="icon-link nav-link" href="https://www.linkedin.com/in/daniesco/">
+              <i class="bi bi-linkedin" style="font-size: 1.5rem; color: white;"></i>
+            </a>
+          </li>
+        </ul>
+         <!--Linkedin + mail end-->
+      </div>
+    </div>
+  </nav>
+
+ <!--spacer-->
+  <div class="container" style="height: 40px"></div>
+  <!---->
+
+   <!-- start section 1-->
+  <div class="container mt-sm-5">
+    <div class="row">
+       <!-- will take up 7 space until md breakpoint, then it will stack and take up 12-->
+      <div class="col-md-7">
+        <div class="col">
+          <p class="fs-5 text">Hello! My name is</p>
+          <h1 class="text-primary my-4"><b>Daniella Escobar</b></h1>
+          <p class="fs-5 text">And I’m a <span class="text-primary">UX Designer</span> who is passionate about creating intuitive and impactful digital experiences that prioritize user needs. With a strong focus on research and user-centered design principles, I strive to craft solutions that seamlessly blend aesthetics with functionality.</p>
+        </div> 
+        
+        <div class="d-flex flex-row justify-content-between me-4 mt-4">
+          <div>
+            <i class="bi bi-mortarboard-fill text-primary fs-5 text" style="padding-right: 5px;"></i>UNC-Chapel Hill
+          </div>
+          <div>
+            <i class="bi bi-briefcase-fill text-primary fs-5 text" style="padding-right: 5px;"></i>Lumen Technologies
+          </div>
+          <div>
+            <i class="bi bi-briefcase-fill text-primary fs-5 text" style="padding-right: 5px;"></i>Amazon
+          </div>
+        </div>
+        
+        <div class="hstack me-4 gap-4 mt-4">
+          <a href="/assets/escobar_daniella.pdf" target="_blank" class="btn btn-primary w-50" role="button">View Resume</a>
+          <a href="about.html" class="btn btn-outline-primary w-50" role="button">About Me</a>
+        </div>
+      </div>
+      <!-- start space between words and image divs-->
+      <div class="col-md-1"></div>
+      <!-- end space between words and image-->
+      <div class="col-md-4">
+        <img class="img-fluid img-responsive rounded mt-4" src="/assets/img/daniella-photo.jpg" alt="Photo of Daniella">
+      </div>
+    </div>
+  </div>
+  <!--end section 1-->
+  <!-- start section 2-->
+  <!--spacer-->
+  <div class="container" style="height: 75px"></div>
+  <!---->
+  <div class="container"><h2 class="text-white mb-3">Case Studies</h2></div>
+  <div class="container d-flex justify-content-between mb-2">
+    <!--first row of cards-->
+    <div class="row">
+      <div class="container col-md-4">
+        <a class="text-decoration-none text-reset" href="bubbly.html">
+          <div class="card mb-4">
+            <img class="img-fluid bg-bubbly rounded-top" src="/assets/img/bubbly-mockup-1.png" alt="Mockup of Bubbly">
+            <div class="card-body">
+                <div class="d-flex flex-row justify-content-between align-items-start">
+                  <h4>Bubbly</h4>
+                  <div><i class="bi bi-tablet-landscape-fill text-primary fs-5 text" style="padding-right: 5px;"></i><b>iPad App</b></div>
+                </div>
+                <p class="card-text">Helps children and young adults with Cortical Visual Impairment improve their condition through interactive gaming.</p>          
+              </div>
+            </div>
+        </a>
+      </div>
+      <div class="container col-md-4">
+        <a class="text-decoration-none text-reset" href="centible.html">
+        <div class="card mb-4">
+          <img class="img-fluid bg-centible rounded-top" src="/assets/img/centible-mockup-1.png" alt="Mockup of Centible">
+          <div class="card-body">
+            <div class="d-flex flex-row justify-content-between align-items-start">
+              <h4>Centible</h4>
+              <div><i class="bi bi-phone-fill text-primary fs-5 text" style="padding-right: 5px;"></i><b>Mobile App</b></div>
+            </div>
+            <p class="card-text">Empowers college students to effortlessly track and categorize their spending habits over time.</p>
+          </div>
+        </div>
+        </a>
+      </div>
+      <div class="container col-md-4">
+        <a class="text-decoration-none text-reset" href="inquery.html">
+          <div class="card mb-4">
+            <img class="img-fluid bg-inquery rounded-top" src="/assets/img/inquery-mockup-5.png" alt="Mockup of Inquery">
+            <div class="card-body">
+              <div class="d-flex flex-row justify-content-between align-items-start">
+                <h4>Inquery</h4>
+                <div><i class="bi bi-laptop-fill text-primary fs-5 text" style="padding-right: 5px;"></i><b>Website</b></div>
+              </div>
+              <p class="card-text">Allows data scientists and small business owners to connect and learn to leverage the power of data.</p>          
+            </div>
+          </div>
+        </a>
+      </div>
+      </div>
+    </div>
+
+    <!--end first row cards-->
+    <!--start second row cards-->
+    <div class="container"><h2 class="text-white mb-3">Internships</h2></div>
+   
+    <div class="container d-flex justify-content-between">
+    <div class="row">
+
+      <div class="container col-md-4">
+        <a class="text-decoration-none text-reset" href="amazon.html">
+        <div class="card mb-4">
+          <img src="/assets/img/aws.png" class="card-img-top" alt="AWS logo">
+          <div class="card-body">
+            <div class="d-flex flex-row justify-content-between align-items-start">
+              <h4>AWS</h4>
+              <div><i class="bi bi-laptop-fill text-primary fs-5 text" style="padding-right: 5px;"></i><b>Web design</b></div>
+            </div>
+            <p class="card-text">Prototyped no-code AI/ML experiences to democratize AI for non-technical users.</p>          
+          </div>
+        </div>
+        </a>
+      </div>
+
+      <div class="container col-md-4">
+        <a class="text-decoration-none text-reset" href="lumen.html">
+        <div class="card mb-4">
+          <img src="/assets/img/lumen.png" class="card-img-top" alt="Lumen logo">
+          <div class="card-body">
+            <div class="d-flex flex-row justify-content-between align-items-start">
+              <h4>Lumen</h4>
+              <div><i class="bi bi-laptop-fill text-primary fs-5 text" style="padding-right: 5px;"></i><b>Web design</b></div>
+            </div>
+            <p class="card-text">Optimized Lumen.com with UserTesting, Contentsquare, and Adobe Analytics.</p>          
+          </div>
+        </div>
+        </a>
+      </div>
+
+      <div class="container col-md-4">
+        <a class="text-decoration-none text-reset" href="#">
+ 
+        </a>
+      </div>
+      </div>
+    </div>
+
+
+    <!--end second row cards-->
+
+
+  <!--end section 2-->
+<!--spacer-->
+<div class="container" style="height: 100px"></div>
+<!---->
+<!--start section 3 (footer)-->
+<footer class="bg-body-tertiary text-center py-4">
+  <div class="container d-flex justify-content-center mb-2">
+    <a class="icon-link nav-link p-2" href="https://www.linkedin.com/in/daniesco/"><i class="bi bi-linkedin" style="font-size: 2rem; color: white;"></i></a>
+    <a class="icon-link nav-link p-2" href="https://dribbble.com/daniesco"><i class="bi bi-dribbble" style="font-size: 2rem; color: white;"></i></a>
+    <a class="icon-link nav-link p-2" href="https://medium.com/@daniesco0303"><i class="bi bi-medium" style="font-size: 2rem; color: white;"></i></a>
+    <a class="icon-link nav-link p-2" href="https://www.behance.net/daniellaescobar3"><i class="bi bi-behance" style="font-size: 2rem; color: white;"></i></a>
+    <a class="icon-link nav-link p-2" href="https://github.com/daniellaescobar"><i class="bi bi-github" style="font-size: 2rem; color: white;"></i></a>
+  </div>
+  <div class="text-center p-3">
+    © 2023 designed and developed by daniella escobar | <a href="mailto:daniesco0303@gmail.com">daniesco0303@gmail.com</a></div>
+</footer>
+<!--end section 2-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
